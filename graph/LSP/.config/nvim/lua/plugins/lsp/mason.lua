@@ -3,12 +3,14 @@ return {
     "williamboman/mason-lspconfig.nvim",
     opts = {
       -- list of servers for mason to install
+
+-- # Todo: Fix on ARM! most language servers won't install
       ensure_installed = {
-	"ts_ls",
-        "html",
-        "cssls",
+--        "ts_ls",
+--        "html",
+--        "cssls",
         "lua_ls",
-        "eslint",
+--        "eslint",
       },
     },
     dependencies = {
