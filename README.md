@@ -1,1 +1,1 @@
-# my.Neovim.Config
+# Neovim.Config.Template
