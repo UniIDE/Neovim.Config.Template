@@ -1,1 +1,3 @@
-ln -srf .config/nvim ~/.config/
+template=Simplest
+
+ln -srf graph/$template/.config/nvim ~/.config/
